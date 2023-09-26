@@ -1,0 +1,55 @@
+
+#container {
+    margin:auto;
+    height:500px;
+    width:750px;
+}
+
+h2{
+    text-align: center;
+    font-weight: bold;
+    
+}
+#tables{
+   border-collapse:collapse;
+   margin: 20px;
+   font-size: 40px;
+   text-align: center;
+   border-radius: 10px 10px 0 0;
+   overflow: hidden;
+   box-shadow: 10px rgb(12, 16, 22)  
+ 
+}
+
+#tables thead tr{
+    background-color: rgb(9, 209, 143);
+    text-align: center;
+    font-style: normal;
+    color: rgb(233, 234, 235);
+    font-weight: bold;
+    
+
+}
+
+#tables th,
+#tables td{
+    padding: 12px 15px;
+
+}
+
+#tables tbody tr{
+    border-bottom: 3px solid rgb(181, 176, 176); 
+    padding:10px 0;  
+}
+
+
+
+ #tables tbody tr:last-of-type{
+    border-bottom: 2px solid rgb(7, 199, 135);
+
+ }
+
+ #tables tbody tr:nth-of-type(even){
+    background-color: rgb(239, 236, 236);
+    color:rgb(7, 199, 135);
+ }
